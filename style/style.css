@@ -61,7 +61,7 @@ header nav ul {
     transition: all .5s ease;
 }
 .nav.active{
-    height: 7vh;
+    height: 10dvh;
     overflow: hidden;
 }
 .nav.active ul{
@@ -247,10 +247,12 @@ main .img-main .filter-img-main{
     text-align: justify;
     hyphens: auto;
     line-height: 20.8px;
+    margin-bottom: 20px;
+    padding: 10px;
     
     
 }
-.container-main-content button{
+.container-main-content .button{
     font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
@@ -260,6 +262,9 @@ main .img-main .filter-img-main{
     padding: 10px 20px;
     margin-top: 20px;
     cursor: pointer;
+    text-decoration: none;
+    
+    
 }
 .btn-scoll-down{
     position: absolute;
@@ -676,6 +681,19 @@ article .container-sobre .img-historia img{
     .card-depoimentos{
         
         transform: scale(0.7);
+    }
+
+    .container-main-content p{
+        margin-bottom: 30px;
+        padding: 10px;
+        
+    }
+
+
+    .container-main-content .button{
+        padding: 5px;
+        margin-top: 20px;
+        font-size: 1rem;
     }
 
     
