@@ -1,0 +1,324 @@
+main .img-guitarra{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/guitarra.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+main .img-baixo{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/baixo.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+main .img-bateria{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/bateria.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+main .img-canto{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/canto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+main .img-producao{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/production.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+main .img-performance{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/performance.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+main .img-historia{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/historia.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+main .img-composicao{
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/composicao.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+.formulario {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.formulario .form {
+  margin-top: 30px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box label {
+  color: #333;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.form .genero {
+  margin-top: 20px;
+}
+.genero h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.genero-option, .genero) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .genero {
+  column-gap: 5px;
+}
+.genero input {
+  accent-color: var(--color-orange);
+}
+.form :where(.genero input, .genero label) {
+  cursor: pointer;
+}
+.genero label {
+  color: #707070;
+}
+.endereco :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 1rem;
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: var(--color-orange);
+}
+.form button:hover {
+   filter:brightness(80%);
+}
+
+.glider-contain{
+    width: 70%;
+    margin: 6.25rem auto;
+}
+
+.glider{
+    width: 90%;
+    height: fit-content;
+}
+.glider a{
+    text-decoration: none;
+}
+
+.glider p{
+    color: white;
+    text-decoration: none;
+    backdrop-filter: blur(5px) brightness(90%);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    
+
+    
+    
+}
+
+.glider-contain img{
+    height: 50px;
+}
+
+.curso-card{
+    
+    min-height: 400px;
+    min-width: 250px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+
+
+.curso-bateria{
+    background-image: url(../IMG/bateria.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.curso-baixo{
+  background-image: url(../IMG/baixo.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.curso-guitarra{
+  background-image: url(../IMG/guitarra.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.curso-canto{
+  background-image: url(../IMG/canto.webp);
+  background-position: center;
+  background-size: cover;
+}
+.curso-producao{
+  background-image: url(../IMG/production.webp);
+  background-position: center;
+  background-size: cover;
+}
+.curso-performance{
+  background-image: url(../IMG/performance.webp);
+  background-position: center;
+  background-size: cover;
+}
+.curso-historia{
+  background-image: url(../IMG/historia.webp);
+  background-position: center;
+  background-size: cover;
+}
+.curso-composicao{
+  background-image: url(../IMG/composicao.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-glide {
+  display: none;
+}
+
+/*Responsive*/
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.genero-option, .genero) {
+    row-gap: 15px;
+  }
+
+  .glider-contain{
+    width: 80%;
+    margin: 6.25rem auto;
+}
+
+  .curso-card{
+    
+    min-height: 350px;
+    min-width: 200px;
+    border-radius: 10px;
+    
+    
+}
+
+.curso-card p{
+    
+  font-size: 1.5rem;
+  
+  
+}
+
+.glider-contain img{
+  height: 30px;
+}
+
+
+}
+
+@media (max-width:890px) {
+  .main-glide {
+    display: block;
+  }
+  .bateria {
+    display: none;
+  }
+}
+
+
