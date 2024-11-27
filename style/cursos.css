@@ -1,7 +1,7 @@
 main .img-guitarra{
     height: 100vh;
     width: 100%;
-    background-image: url(../img/guitarra.webp);
+    background-image: url(../IMG/guitarra.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +12,7 @@ main .img-guitarra{
 main .img-baixo{
   height: 100vh;
   width: 100%;
-  background-image: url(../img/baixo.webp);
+  background-image: url(../IMG/baixo.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +23,7 @@ main .img-baixo{
 main .img-bateria{
   height: 100vh;
   width: 100%;
-  background-image: url(../img/bateria.webp);
+  background-image: url(../IMG/bateria.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,7 +34,7 @@ main .img-bateria{
 main .img-canto{
   height: 100vh;
   width: 100%;
-  background-image: url(../img/canto.jpg);
+  background-image: url(../IMG/canto.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +45,7 @@ main .img-canto{
 main .img-producao{
   height: 100vh;
   width: 100%;
-  background-image: url(../img/production.webp);
+  background-image: url(../IMG/production.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,7 +55,7 @@ main .img-producao{
 main .img-performance{
   height: 100vh;
   width: 100%;
-  background-image: url(../img/performance.webp);
+  background-image: url(../IMG/performance.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,7 +66,7 @@ main .img-performance{
 main .img-historia{
   height: 100vh;
   width: 100%;
-  background-image: url(../img/historia.webp);
+  background-image: url(../IMG/historia.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,7 +77,7 @@ main .img-historia{
 main .img-composicao{
   height: 100vh;
   width: 100%;
-  background-image: url(../img/composicao.webp);
+  background-image: url(../IMG/composicao.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
